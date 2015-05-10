@@ -425,3 +425,31 @@ td,
 th {
   padding: 0;
 }
+
+
+/* ============================================================================= */
+
+/* END NORMALIZE SEGMENT */
+/* for Testing - make stuff visibile. REMOVE ONCE COMPLETE */
+
+body {
+  background-color: LightGrey;
+
+}
+
+div {
+  border: 1px solid Chocolate;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.top-navigation {
+  border: 1px solid;
+  background-color: #FFFFFF;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
