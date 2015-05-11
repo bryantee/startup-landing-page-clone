@@ -487,9 +487,10 @@ body {
 .links a {
   text-decoration: none;
   color: #838994;
+  transition: color 0.5s ease;
 }
 
-.top-navigation .links > .active {
+.top-navigation .links .active {
   color: #black;
   font-weight: 600;
 }
