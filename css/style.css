@@ -438,10 +438,22 @@ body {
 }
 
 div {
-  border: 1px solid Chocolate;
+  border: 0px solid Chocolate;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #838994;
+  letter-spacing: 0.03em;
+
+}
 
 .top-navigation {
   border: 1px solid;
@@ -452,12 +464,36 @@ div {
   width: 970px;
   height: 70px;
   margin: 0 auto;
+  padding: 0 15px;
+
 }
 
-.nav-links {
+
+.links {
   float: right;
+  margin-top: 22px;
 }
 
 .logo {
-  margin: 1em;
+  float: left;
+  margin-top: 12px;
+}
+
+.links > li {
+  display: inline-block;
+  margin-left: 1.5em;
+}
+
+.links a {
+  text-decoration: none;
+  color: #838994;
+}
+
+.top-navigation .links > .active {
+  color: #black;
+  font-weight: 600;
+}
+
+a:hover {
+  color: black;
 }
