@@ -500,3 +500,17 @@ div {
   color: black;
   cursor: pointer;
 }
+
+.masthead {
+  background-image: url('../images/first-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 13em;
+}
+
+.masthead > .masthead-title,
+.masthead > .masthead-tagline  {
+  color: white;
+  text-align: center;
+}
+
