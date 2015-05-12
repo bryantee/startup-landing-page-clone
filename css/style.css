@@ -491,8 +491,8 @@ div {
   transition: color 0.5s ease;
 }
 
-.top-navigation .links .active {
-  color: #black;
+.top-navigation .links .active a {
+  color: black;
   font-weight: 500;
 }
 
