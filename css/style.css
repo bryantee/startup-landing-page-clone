@@ -528,5 +528,11 @@ body {
   line-height: 1.33;
   margin: 0 auto;
   display: block;
+  background-color: #f15a29;
+  color: white;
+}
+
+.big-button:hover{
+  background-color: #d9400e;
 }
 
