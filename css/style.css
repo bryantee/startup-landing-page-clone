@@ -530,6 +530,8 @@ body {
   display: block;
   background-color: #f15a29;
   color: white;
+  width: 10em;
+  margin-top: 2em;
 }
 
 .big-button:hover{
