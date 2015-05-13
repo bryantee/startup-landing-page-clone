@@ -439,13 +439,15 @@ th {
 /* END NORMALIZE SEGMENT */
 /* for Testing - make stuff visibile. REMOVE ONCE COMPLETE */
 
+/*
 body {
   background-color: LightGrey;
 
 }
+*/
 
 div {
-  border: 0px solid Chocolate;
+  border: 1px solid Chocolate;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -555,6 +557,8 @@ body {
   background-color: #d9400e;
 }
 
+/* == Old way before walk-thru ==
+
 .three-icon img {
   width: 150px;
   margin-left: 5em;
@@ -565,10 +569,18 @@ body {
   padding: 5em;
 }
 
-.three-icon h1 {
+.three-icon h2 {
   text-align: center;
   margin-top: 3em;
 }
+*/
+
+.three-icon .devices {
+  width: 33%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
 
 
 
