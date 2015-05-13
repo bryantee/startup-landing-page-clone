@@ -456,6 +456,8 @@ div {
   border: 0px solid;
   background-color: #FFFFFF;
   height: 70px;
+  width: 100%;
+  position: fixed;
 }
 
 /* .top-navigation > */
