@@ -453,7 +453,7 @@ div {
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .top-navigation {
-  border: 0px solid;
+  border-bottom: 1px solid #DDD;
   background-color: #FFFFFF;
   height: 70px;
   width: 100%;
@@ -602,9 +602,27 @@ body {
   font-weight: 400;
 }
 
+.footer {
+  text-align: center;
+  border-top: 1px solid #DDD;
+  margin-top:4em;
+}
 
+.footer > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
+.footer li {
+  display: inline;
+  margin: .5em;
+}
 
+.footer p {
+  font-size: 1em;
+  font-weight: 200;
+  color: #838994;
+}
 
 
 
