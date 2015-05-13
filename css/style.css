@@ -468,6 +468,7 @@ div {
 body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
+
 }
 
 .top-navigation .links {
@@ -514,11 +515,27 @@ body {
 
 }
 
+.masthead .content {
+  margin-top: -50px;
+}
+
 .masthead h1,
 .masthead h3 {
   color: white;
   text-align: center;
+  font-weight: 200;
 }
+
+.masthead h1 {
+  font-size: 2.7em;
+}
+
+.masthead h3 {
+  margin-top: -0.5em;
+  font-size: 1.5em;
+}
+
+
 
 .big-button {
   text-shadow: none;
