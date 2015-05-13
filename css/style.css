@@ -445,11 +445,11 @@ body {
 
 }
 */
-
+/*
 div {
   border: 1px solid Chocolate;
 }
-
+*/
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .top-navigation {
@@ -460,7 +460,7 @@ div {
 
 /* .top-navigation > */
 .content {
-  width: 760px;
+  width: 970px;
   height: auto;
   margin: 0 auto;
   padding: 0 15px;
@@ -576,9 +576,28 @@ body {
 */
 
 .three-icon .devices {
-  width: 33%;
+  width: 30%;
   display: inline-block;
   box-sizing: border-box;
+  margin: .5em;
+
+  /* text-align: center; */
+}
+
+.three-icon {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.three-icon > h2 {
+  padding: 20px;
+  font-size: 2.8em;
+  font-weight: 300;
+}
+
+.three-icon > .devices > h3 {
+  font-size: 1.563em;
+  font-weight: 400;
 }
 
 
