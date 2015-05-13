@@ -555,3 +555,23 @@ body {
   background-color: #d9400e;
 }
 
+.three-icon img {
+  width: 150px;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+
+.three-icon .content {
+  padding: 5em;
+}
+
+.three-icon h1 {
+  text-align: center;
+  margin-top: 3em;
+}
+
+
+
+
+
+
